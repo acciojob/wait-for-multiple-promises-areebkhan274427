@@ -1,7 +1,7 @@
 //your JS code here. If required.
 
 const table = document.getElementById('output');
-const loadingRow = document.querySelector('tbody > tr');
+const loadingRow = document.querySelector('#loading');
 
 var promises=[];
 
