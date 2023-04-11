@@ -7,7 +7,7 @@ for(let i=1;i<=3;i++){
 	const promise = new Promise((resolve,reject)=>{
 		const randomTime = Math.floor(Math.random() * (3000) + 1000);
 		setTimeout(()=>{
-			resolve(Math.floor(randomTime/1000));
+			resolve(randomTime/1000);
 		},randomTime)
 	})
 	promises.push(promise);
